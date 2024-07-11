@@ -18,7 +18,7 @@ WITH PovertyRates AS (
         usd.Estimated_Population_5_17 > 0 -- To avoid division by zero
 )
 
--- Select the relevant columns for the scatter plot
+
 SELECT 
     Median_Household_Income,
     PovertyRate,
